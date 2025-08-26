@@ -1,2 +1,0 @@
-# SinoStation_RestroomAPI
-
