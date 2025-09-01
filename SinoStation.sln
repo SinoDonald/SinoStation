@@ -1,13 +1,13 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.14.36401.2 d17.14
+VisualStudioVersion = 17.14.36401.2
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoStation", "SinoStation.csproj", "{1AB64CFD-8946-4537-A04B-0B6E5EFF2CB3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoStation", "SinoStation\SinoStation.csproj", "{1AB64CFD-8946-4537-A04B-0B6E5EFF2CB3}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SinoStation_Setup", "..\SinoStation_Setup\SinoStation_Setup.vdproj", "{2ACEA386-FBAB-4E46-B43B-E54E2AC33D64}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SinoStation_Setup", "SinoStation_Setup\SinoStation_Setup.vdproj", "{2ACEA386-FBAB-4E46-B43B-E54E2AC33D64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoStation_2025", "..\SinoStation_2025\SinoStation_2025.csproj", "{88AFB14B-7017-46C5-ACA4-68A638354011}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoStation_2025", "SinoStation_2025\SinoStation_2025.csproj", "{88AFB14B-7017-46C5-ACA4-68A638354011}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
