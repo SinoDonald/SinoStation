@@ -6,14 +6,14 @@ using System.Reflection;
 using System.Windows;
 using System.Windows.Media.Imaging;
 
-namespace SinoStation
+namespace SinoStation_2020
 {
     public class SinotechAPI : IExternalApplication
     {
         public string addinAssmeblyPath = Assembly.GetExecutingAssembly().Location;
         public Result OnStartup(UIControlledApplication a)
         {
-            string sinoStationPath = Path.Combine(Directory.GetParent(addinAssmeblyPath).FullName, "SinoStation.dll");
+            string sinoStationPath = Path.Combine(Directory.GetParent(addinAssmeblyPath).FullName, "SinoStation_2020.dll");
             string checkPlatformPath = Path.Combine(Directory.GetParent(addinAssmeblyPath).FullName, "CheckPlatform.dll");
             string checkPasswayPath = Path.Combine(Directory.GetParent(addinAssmeblyPath).FullName, "CheckPassway.dll");
 
@@ -33,7 +33,7 @@ namespace SinoStation
                 }
             }
 
-            PushButton pushbutton1 = ribbonPanel.AddItem(new PushButtonData("SinoStation", "房間", sinoStationPath, "SinoStation.RegulatoryReview")) as PushButton;
+            PushButton pushbutton1 = ribbonPanel.AddItem(new PushButtonData("SinoStation", "房間", sinoStationPath, "SinoStation_2020.RegulatoryReview")) as PushButton;
             pushbutton1.LargeImage = convertFromBitmap(Properties.Resources.房間檢討);
             PushButton pushbutton2 = ribbonPanel.AddItem(new PushButtonData("Check Platform", "月台", checkPlatformPath, "CheckPlatform.CheckPlatform")) as PushButton;
             pushbutton2.LargeImage = convertFromBitmap(Properties.Resources.CheckPlatform);

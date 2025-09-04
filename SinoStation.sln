@@ -9,6 +9,8 @@ Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "SinoStation_Setup", "SinoSt
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoStation_2025", "SinoStation_2025\SinoStation_2025.csproj", "{88AFB14B-7017-46C5-ACA4-68A638354011}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SinoStation_2020", "SinoStation_2020\SinoStation_2020.csproj", "{35E15C33-B062-4794-A8A4-1165A65BC778}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{88AFB14B-7017-46C5-ACA4-68A638354011}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{88AFB14B-7017-46C5-ACA4-68A638354011}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{88AFB14B-7017-46C5-ACA4-68A638354011}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E15C33-B062-4794-A8A4-1165A65BC778}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E15C33-B062-4794-A8A4-1165A65BC778}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E15C33-B062-4794-A8A4-1165A65BC778}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E15C33-B062-4794-A8A4-1165A65BC778}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
